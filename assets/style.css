@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:whitesmoke;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h3 {
+  
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: fantasy;
+  color: aliceblue;
+  background-color: black;
+}
+
+span {
+  background-color: black;
+  color: aliceblue;
+}
+
+p {
+  margin: 0;
+  font-size: x-large;
+}
+
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header h1 {
+  padding: 5px 1% 5px 6%;
+  margin: 0;
+  font-size: 4vw;
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 5px 10px;
+  color: black;
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.hero-banner {
+  background-image: url("../assets/css banner.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.hero-banner div {
+  flex: 0 0 90%;
+}
+
+.hero-banner h2 {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  display: inline;
+}
+
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-section {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.page-section > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid;
+  font-size: 4vw;
+  line-height: 1.1;
+}
+
+.page-section > div {
+  flex: 0 0 77%;
+}
+
+.page-section p {
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border: 5px solid;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  font-size: 0.9rem;
+}
+
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-item div {
+  background-color: black;
+  padding: 8px 10px;
+}
+
+.flex-item h3 {
+  font-size: 1.6rem;
+}
+
+.contact address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.contact address a {
+  color: black;
+  padding: 5px;
+  font-size: 1.3rem;
+  font-style: normal;
+  margin: 0 0.2rem 0.1rem;
+  display: inline-block;
+}
+
+.contact address a:hover {
+  color: blue;
+}
+
+.password {
+  width:100%;
+  height:100%;
+  background-image: url("../assets/password.png");
+  
+}
+
+.quiz {
+  background-image: url("../assets/coding-pic.jpeg");
+}
+
+.scheduler {
+  background-image: url("../assets/scheduler.png");
+}
+
+.README {
+  background-image: url("../assets/README.png");
+}
+
+.doges {
+  background-image: url("../assets/doges-n-dad-jokes.jpeg");
+}
