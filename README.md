@@ -12,7 +12,7 @@ I have created a portfolio page that includes my name, a picture of myself and s
 ![screenshot of application front page 3/3](./assets/ScreenShot3.png)
 
 ### Link
-
+https://chasebinkley.github.io/Chase-Binkley-Portfolio/
 
 
 
